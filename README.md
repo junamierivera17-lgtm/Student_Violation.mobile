@@ -104,17 +104,17 @@ Represents the student record returned by the API.
 
 Fields:
 
-id
+•id
 
-studentId
+•studentId
 
-fullName
+•fullName
 
-course
+•course
 
-yearLevel
+•yearLevel
 
-qrCode
+•qrCode
 
 
 
@@ -125,15 +125,15 @@ Represents violation categories.
 
 Fields:
 
-id
+•id
 
-violationName
+•violationName
 
-category (Minor / Major)
+•category (Minor / Major)
 
-description
+•description
 
-sanction
+•sanction
 
 
 
@@ -144,15 +144,15 @@ Represents recorded violation logs.
 
 Fields:
 
-id
+•id
 
-studentId
+•studentId
 
-violationId
+•violationId
 
-date
+•date
 
-recordedBy
+•recordedBy
 
 
 All JSON responses are converted into typed Dart models before being used by the UI.
@@ -258,24 +258,28 @@ Selected Violations (Example)
 
 Minor Violations
 
-No ID
+•No ID
 
-Improper Uniform
+•Improper Uniform
 
-Late Entry
+•Late Entry
 
-No Haircut (for males)
+•No Haircut (for males)
+
+•earrings(for boys)
+
+•multiple piercing (For girls)
 
 
 Major Violations
 
-Smoking inside campus
+•Smoking inside campus
 
-Fighting
+•Fighting
 
-Bullying
+•Bullying
 
-Vandalism
+•Vandalism
 
 
 
