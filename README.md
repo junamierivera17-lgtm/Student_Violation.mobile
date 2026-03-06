@@ -5,7 +5,7 @@ A Flutter mobile application that integrates a custom Student Violation Monitori
 ### API Choice
 
 - API Name: Student Violation Monitoring API
-- Base URL: <https://yourserver.com/api>
+- Base URL: 
 - Documentation: Internal REST API documentation
 - Required: Yes (JWT Authentication)
 - Response Format: JSON
