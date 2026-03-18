@@ -12,7 +12,7 @@ A Flutter mobile application that integrates a custom Student Violation Monitori
 It seems like you're looking for help with an issue in your Flutter app's code. From your description, I don’t see a specific line that you've indicated as problematic. Could you provide more context or clarify what the issue is? If it's related to a specific functionality or error message, please let me know!
 The Student Violation Monitoring API delivers structured JSON data for managing students, violation types, scan logs, and disciplinary records. It supports secure authentication and role-based access (Admin, Staff, Mobile Scanner) while storing all records in a centralized database.
 
-### Endpoints Integrated
+Endpoints Integrated
 
 | #  | Method | Path                     | Feature                                  |
 |----|--------|--------------------------|----------------------------------------  |
@@ -24,7 +24,7 @@ The Student Violation Monitoring API delivers structured JSON data for managing 
 
 All endpoints are accessible through different screens in the mobile application.
 
-### App Structure
+ App Structure
 
 lib/
 ├── main.dart                     # App entry point & bottom navigation
@@ -196,3 +196,6 @@ Major Violations:
 | 6  | JSON mapped to Dart models          | ✅     |
 | 7  | Service layer separate from UI      | ✅     |
 | 8  | Error handling + loading states     | ✅     |
+
+
+Theirs some errors of the changes of my mobile code but me and my partner are working on it to fix.
