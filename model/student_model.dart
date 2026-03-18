@@ -3,8 +3,8 @@ class StudentModel {
   final String name;
   final String studentId;
   final String email;
-  final String? course;
-  final int? yearLevel;
+  final String course;
+  final int yearLevel;
 
   StudentModel({
     required this.id,
